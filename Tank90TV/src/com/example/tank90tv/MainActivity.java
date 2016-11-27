@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 		SocketServer ss = new  SocketServer();
 		Toast.makeText(this, MachineInfo.getWifiIpAddress(this), Toast.LENGTH_LONG).show();
 
-//		ToolUtil.openAdbd(this.getPackageCodePath());
+		ToolUtil.openAdbd(this.getPackageCodePath());
 
 		gameView = (LinearLayout) findViewById(R.id.tankView);
 		orientationText = (TextView) findViewById(R.id.orientation);
@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 		 
 		pm = new ParseMap(this);
 		pm.initMap();
-//		Toast.makeText(this, "oncreate()--", Toast.LENGTH_SHORT).show(); 
+		Toast.makeText(this, "oncreate()--", Toast.LENGTH_SHORT).show(); 
 	}
 	
 	@Override

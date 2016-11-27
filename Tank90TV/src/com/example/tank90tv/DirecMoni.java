@@ -8,7 +8,9 @@ import android.hardware.SensorManager;
 import android.widget.TextView;
 
 public class DirecMoni   {
-
+/*
+ * 测试。。。。。
+ * */
 	public static final int GO_STOP = 0;
 	public static final int GO_LEFT = 1;
 	public static final int GO_RIGHT = 2;
